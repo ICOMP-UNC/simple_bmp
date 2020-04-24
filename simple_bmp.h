@@ -1,11 +1,8 @@
 /**
-Created by jmorales on 22/17/20.
+Created by jmorales on 4/22/20.
 
  @author jmorales (jmorales@unc.edu.ar)
  @details https://itnext.io/bits-to-bitmaps-a-simple-walkthrough-of-bmp-image-format-765dc6857393
- @TODO Bloque 3 de paleta de colores
- @TODO detectar headers no validos, solo bmp 24bits?
- @TODO Algo para BW?
 */
 
 #ifndef _SIMPLE_BMP_H_
