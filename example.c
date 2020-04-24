@@ -30,8 +30,8 @@ uint64_t rdtsc ()
 void kernel_setup (uint16_t **kern, int16_t ksize)
 {
   uint16_t st_val = 1;
-  for (int i = 0; i < ksize; i++)
-          kern[i][0] = st_val;
+  for (int j = 0; j < ksize; j++)
+          kern[0][j] = st_val;
 
   for (int i = 1; i < ksize / 2 + 1; i++)
     {
